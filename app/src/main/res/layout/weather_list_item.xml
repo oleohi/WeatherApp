@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_toStartOf="@id/weatherImageView"
+        android:textSize="17sp"
+        android:layout_marginEnd="8dp"
+        tools:text="Today" />
+
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dayTextView"
+        android:layout_marginEnd="8dp"
+        android:padding="4dp"
+        android:layout_toStartOf="@id/weatherImageView"
+        android:textSize="16sp"
+        tools:text="Sunny" />
+
+    <ImageView
+        android:id="@+id/weatherImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dayTextView"
+        android:layout_alignBottom="@id/weatherTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="40dp"
+        android:layout_toStartOf="@+id/temp1TextView"
+        android:src="@drawable/weather_smaller" />
+
+    <TextView
+        android:id="@+id/temp1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="17sp"
+        tools:text="29" />
+
+    <TextView
+        android:id="@+id/temp2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp1TextView"
+        android:layout_alignParentEnd="true"
+        android:padding="4dp"
+        android:textSize="16sp"
+        tools:text="24" />
+
+</RelativeLayout>
