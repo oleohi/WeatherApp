@@ -10,7 +10,7 @@ inline fun <ResultType, RequestType> networkBoundResource(
 ) = flow {
     val data = query().first()
 
-    val flow =if (shouldFetch(data)) {
+    val flow = if (shouldFetch(data)) {
         emit(Resource.Loading(data))
         try {
             saveFetchResult(fetch())

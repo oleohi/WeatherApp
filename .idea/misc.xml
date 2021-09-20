@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/oleoh/AndroidStudioProjects/WeatherApp/app/src/main/res/drawable/ic_search.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/oleoh/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/oleoh/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/fragment_weather.xml" value="0.1" />
+        <entry key="..\:/Users/oleoh/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/test.xml" value="0.11820652173913043" />
         <entry key="..\:/Users/oleoh/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/weather_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/oleoh/AndroidStudioProjects/WeatherApp/app/src/main/res/menu/header_menu.xml" value="0.19907407407407407" />
       </map>
     </option>
   </component>
